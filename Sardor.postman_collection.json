@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "3554c509-d468-4c18-b9cc-a784218c7b67",
+		"name": "Sardor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete user with id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/delete/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"delete",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add user to userlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "Sardor",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "Nazirjonov",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:9999/add/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"add",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update username and password",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "sardor",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "testpassword",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:9999/update/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"update",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

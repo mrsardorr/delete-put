@@ -1,0 +1,25 @@
+{
+  "name": "userslist",
+  "version": "1.0.0",
+  "description": "create users list using express js , hbs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsardorr/userlist.git"
+  },
+  "author": "Sardor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrsardorr/userlist/issues"
+  },
+  "homepage": "https://github.com/mrsardorr/userlist#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-hbs": "^2.4.0",
+    "hbs": "^4.2.0"
+  }
+}
